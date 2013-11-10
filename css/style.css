@@ -1,0 +1,17 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  padding: 5px; background-color: black; color: white;
+  font-family:Arial, Helvetica, sans-serif; font-size:0.82em;
+}
+
+ul.ops li {
+  cursor:pointer;
+}
+
+div.subcanv {
+  width:160px; float:left;
+}

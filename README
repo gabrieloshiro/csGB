@@ -1,0 +1,57 @@
+-----------------------
+|CoffeeBoy for players|
+-----------------------
+
+Install CoffeeBoy
+1 - Download source files
+2 - Double-click in index.html to open CoffeeBoy on your default browser
+3 - Click on choose file button
+4 - Select your favorite Gameboy ROM
+5 - Press Run
+6 - Have fun!
+
+----------------------------
+| CoffeeBoy for developers |
+----------------------------
+
+Install Node.js
+---------------
+1 - Go to http://nodejs.org/download/
+2 - Follow installation instructions based on your operating system
+
+Install NPM
+1 - Go to http://npmjs.org/
+2 - Follow installation instructions based on your operating system
+
+Install CoffeeScript
+--------------------
+1 - Execute the following command on your shell
+$> sudo npm install -g coffee-script
+
+
+Compile CoffeeScript to JavaScript
+----------------------------------
+Compile CoffeeScript to JavaScript
+$> coffee -cb source.coffee
+
+Compile a directory tree of .coffee files in src into a parallel tree of .js files in lib:
+$> coffee --compile --output lib/ src/
+
+Watch and recompile an entire project as you work on it:
+coffee -o lib/ -cbw src/
+
+-------
+| FAQ |
+-------
+A - I am French and I have a AZERTY keyboard instead of QWERTY, what should I do?
+
+Buy a new computer in any respected country.
+
+--------------
+| REFERENCES |
+--------------
+
+Coffee Script - http://coffeescript.org/
+
+You might take a look into js2coffee too
+js2coffee file.js > output.coffee
